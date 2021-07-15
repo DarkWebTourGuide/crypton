@@ -4,6 +4,7 @@ const chalk = require('chalk')
 const clipboardy = require('clipboardy')
 const createPassword = require('./func/createPassword')
 const savePassword = require('./func/savePassword')
+const log = console.log
 
 program.version('1.0.0').description('Crypton Generator')
 
